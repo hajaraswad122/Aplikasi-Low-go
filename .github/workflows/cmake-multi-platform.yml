@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langkah-langkah Aplikasi Low go</title>
+</head>
+<body>
+    <h1>Cara Mendapatkan Uang Secara Gratis</h1>
+    <img src="gambar_low_go.jpg" width="200px" height="100px">
+    <p><b>Gambar 1.1. aplikasi low go</b></p>
+    
+    <main class="m-auto pt-5 pb-1">
+        <section class="container profil text-center text-white">
+            <img src="aplikasi_Low_go.png" width="200px" height="100px">
+            <p><b>Gambar 1.2. Bukti transaksi</b></p>
+        </section>
+    </main>
+
+    <h5>Jika gambarnya rusak, kalian bisa lihat gambarnya di link bawah ini:</h5>
+    <a href="https://tinyurl.com/Bukti-Transaksi-block">Transaksi Sukses</a>
+
+    <h3>Langkah-Langkah:</h3>
+    <ol>
+        <li>
+            <p>Mendownload aplikasi penghasil uang menggunakan link di bawah ini:</p>
+            <p><a href="https://d1lybx0f6h8pnq.cloudfront.net/lg/index_1.html?id=61938803">Silakan klik Download</a></p>
+        </li>
+        <li>
+            <p>Setelah selesai mendownload, masukkan akun Gmail Anda ke aplikasi.</p>
+        </li>
+        <li>
+            <p>Langkah berikutnya, bagi pemula:</p>
+            <ul>
+                <li>Tingkatkan level "Sarang Madu"</li>
+                <li>Selesaikan misi ke-2 dan ke-3: "Misi Konten dan Tugas"</li>
+                <li>Fokus juga pada pencapaian untuk meningkatkan hasil.</li>
+            </ul>
+        </li>
+        <li>
+            <p>Jika toplos madu sudah mencapai 100%:</p>
+            <ul>
+                <li>Lakukan penarikan</li>
+                <li>Ikuti proses check-in selama 15 hari.</li>
+                <li>Setelah 15+10 hari chack-in, Anda bisa mendapatkan uang Anda.</li>
+            </ul>
+        </li>
+        <li>
+            <p>Cara "nuyul" atau trik cepat low go ada di link youtube dibawa ini : </p>
+                        <p><a href="https://youtu.be/uzfUhxWjJTo?si=rDwCQytDMzA9oCTB">VIDIO TUTORIAL APLIKASI LOW GO</a></p>
+            
+        </li>
+    </ol>
+
+    <h3>Penutup</h3>
+    <p>Terima kasih telah membaca panduan ini. Selamat mencoba dan semoga berhasil di Tahap Ke 2!</p>
+
+ 
+    <h3>SILAKAN KLIK KIRIM </h3>
+     <h4>Ke Tahap 2</h4>
+    <p>⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇<p></p>
+
+    <!-- Tombol Kirim -->
+    <button onclick="kirim()">Kirim</button>
+
+    <script>
+        // Fungsi untuk mengarahkan ke link tahap 2 setelah klik tombol
+        function kirim() {
+            window.location.href = "https://tinyurl.com/Pemenang-8-orang"; // Mengarahkan ke URL tahap 2
+        }
+
+        // Menampilkan data yang dikirim dari halaman sebelumnya
+        window.onload = function() {
+            const nama = sessionStorage.getItem("nama");
+            const umur = sessionStorage.getItem("umur");
+
+            if (nama && umur) {
+                document.body.insertAdjacentHTML('afterbegin', `<h2>Halo, ${nama}. Anda berusia ${umur} tahun.</h2>`);
+            }
+        };
+    </script>
+</body>
+</html>
+
+
